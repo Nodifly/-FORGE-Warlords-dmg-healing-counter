@@ -121,7 +121,7 @@ public class FirstMod {
             return;
         }
         FontRenderer fRender = Minecraft.getMinecraft().fontRendererObj;
-        fRender.drawString(EnumChatFormatting.DARK_GREEN + "Damage: " + EnumChatFormatting.BOLD + totalDamage, 5, 5, 0, true);
+        fRender.drawString(EnumChatFormatting.DARK_GREEN + "Damages: " + EnumChatFormatting.BOLD + totalDamage, 5, 5, 0, true);
     }
 }
 
