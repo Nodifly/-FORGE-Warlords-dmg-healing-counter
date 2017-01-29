@@ -1,0 +1,16 @@
+[
+{
+  "modid": "first_mod",
+  "name": "First Mod",
+  "description": "A mod made by Notifly using IntelliJ",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "notifly.hopto.org",
+  "updateUrl": "",
+  "authorList": ["Notifly"],
+  "credits": "Notifly for being a babe",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
