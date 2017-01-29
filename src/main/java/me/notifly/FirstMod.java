@@ -108,7 +108,7 @@ public class FirstMod {
                     if (Character.isWhitespace(endOfMsg.charAt(0))) {
                         damageDigit = 100; // damage >= 100, damage < 1000
                         int damage = Integer.parseInt(endOfMsg.substring(1, 4));
-                        totalDamage = totalDamage + damage + 1;
+                        totalDamage = totalDamage + damage;
                     }
                 }
             }
