@@ -66,7 +66,7 @@ public class FirstMod {
 
         if (warlords == "True") {
 
-            if (message.contains("Your ") && message.contains(" hit ") && message.contains(" for ") && message.contains(" damage.")) {
+            if (message.contains("You") && message.contains(" hit ") && message.contains(" for ") && message.contains(" damage.")) {
                 String game = "warlords";
 
                 if (!message.contains(" critical ")) {
