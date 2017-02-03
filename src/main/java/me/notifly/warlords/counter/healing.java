@@ -30,7 +30,7 @@ public class healing {
     @SubscribeEvent
     public static void healingMethod (String message){
 
-        // Damage counter
+        // Healing counter
 
         if (warlordsCounter.warlords == "True") {
 

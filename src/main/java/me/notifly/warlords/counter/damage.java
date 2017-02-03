@@ -63,7 +63,7 @@ public class damage{
                     String endOfMsg = message.substring(message.length() - 22, (message.length()));
 
                     if (Character.isDigit(endOfMsg.charAt(0))) {
-                        damageDigit = 1000; // damage > 1000
+                        damageDigit = 1000; // damage => 1000
                         damage = Integer.parseInt(endOfMsg.substring(0, 4));
                         totalDamage = totalDamage + damage;
                     }
