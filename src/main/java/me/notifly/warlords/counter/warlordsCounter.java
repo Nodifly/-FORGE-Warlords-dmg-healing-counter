@@ -39,7 +39,8 @@ public class warlordsCounter {
         String message = event.message.getUnformattedText();
 
         if (message.contains("The gates will fall in ")) {
-            damage.totalDamage = 0;
+            damage.totalDamage = 0; // resets damage counter
+            healing.totalHealing = 0;   // resets healing counter
             warlords = "True";
         }
 
