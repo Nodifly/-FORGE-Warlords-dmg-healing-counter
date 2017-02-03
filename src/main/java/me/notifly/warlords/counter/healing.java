@@ -38,7 +38,6 @@ public class healing {
 
                 if (!message.contains(" critically ")) {
                     String endOfMsg = message.substring(message.length() - 12, (message.length()));
-                    displayMsg("EndofMsg no crit: " + endOfMsg);
                     if (Character.isDigit(endOfMsg.charAt(0))) {
                         healingDigit = 1000; // healing > 1000
                         healing = Integer.parseInt(endOfMsg.substring(0, 4));
@@ -66,7 +65,6 @@ public class healing {
 
                 if (message.contains(" critically healed ")) {
                     String endOfMsg = message.substring(message.length() - 13, (message.length()));
-                    displayMsg("EndofMsg crit: " + endOfMsg);
 
                     if (Character.isDigit(endOfMsg.charAt(0))) {
                         healingDigit = 1000; // healing > 1000
