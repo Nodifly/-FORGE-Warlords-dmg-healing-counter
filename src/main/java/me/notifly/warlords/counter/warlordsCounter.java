@@ -48,6 +48,7 @@ public class warlordsCounter {
         }
 
         damage.damageMethod(message);
+        healing.healingMethod(message);
 
     }
 
@@ -60,7 +61,7 @@ public class warlordsCounter {
         if (warlords == "True") {
             FontRenderer fRender = Minecraft.getMinecraft().fontRendererObj;
             fRender.drawString(EnumChatFormatting.RED + "Damage: " + EnumChatFormatting.BOLD + damage.totalDamage, 5, 5, 0, true);
-            fRender.drawString(EnumChatFormatting.GREEN + "Healing: " + EnumChatFormatting.BOLD + damage.totalDamage, 5, 20, 0, true);
+            fRender.drawString(EnumChatFormatting.GREEN + "Healing: " + EnumChatFormatting.BOLD + healing.totalHealing, 5, 20, 0, true);
         }
 
     }

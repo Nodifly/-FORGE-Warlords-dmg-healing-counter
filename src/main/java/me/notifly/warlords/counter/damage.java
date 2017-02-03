@@ -1,10 +1,7 @@
 package me.notifly.warlords.counter;
 
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.util.ChatComponentText;
-import net.minecraft.util.EnumChatFormatting;
-import net.minecraftforge.client.event.RenderGameOverlayEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -67,13 +64,13 @@ public class damage{
 
                     if (Character.isDigit(endOfMsg.charAt(0))) {
                         damageDigit = 1000; // damage > 1000
-                        int damage = Integer.parseInt(endOfMsg.substring(0, 4));
+                        damage = Integer.parseInt(endOfMsg.substring(0, 4));
                         totalDamage = totalDamage + damage;
                     }
 
                     if (Character.isWhitespace(endOfMsg.charAt(0))) {
                         damageDigit = 100; // damage >= 100, damage < 1000
-                        int damage = Integer.parseInt(endOfMsg.substring(1, 4));
+                        damage = Integer.parseInt(endOfMsg.substring(1, 4));
                         totalDamage = totalDamage + damage;
                     }
                 }
