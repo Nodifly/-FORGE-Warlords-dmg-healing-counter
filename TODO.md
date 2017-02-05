@@ -1,1 +1,0 @@
-- Finish fully adding healing counter. Currently does not reset with damage on game start. 
